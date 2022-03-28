@@ -23,11 +23,16 @@ export default {
       { rel: 'apple-touch-icon', type: 'image/x-icon', sizes:'180x180', href: '/icons/apple-touch-icon.png' },
       { rel: 'manifest', href: '/icons/site.webmanifest' },
       { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color:'#5bbad5' },
+
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap' }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/css/base.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
